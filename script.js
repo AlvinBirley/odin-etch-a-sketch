@@ -89,7 +89,7 @@ function reset (){
         });
     }
 }
-
+document.getElementById("reset-btn").addEventListener("click", reset);
 document.getElementById('btn').addEventListener('click', btnPush);
 
 
