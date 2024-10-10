@@ -70,9 +70,21 @@ body {
     flex-wrap: wrap; /* Allow items to wrap to the next line */
     display: grid;
     grid-template-columns: repeat(16,1fr); /* 1 column */
-    grid-template-rows: repeat(16, 1fr)
+    grid-template-rows: repeat(16, 1fr);
 }
 
 .divClass {
     flex:1;
+}
+
+.new-board-div {
+    display: grid;
+    border: black;
+    border-style:solid;
+    height: 300px;
+    width: 300px;
+    /*display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+   /* grid-template-columns: repeat(33,1fr); /* 1 column */
+   /* grid-template-rows: repeat(33, 1fr);  */
 }
